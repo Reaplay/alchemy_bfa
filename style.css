@@ -1,0 +1,104 @@
+@import url("reset.css");
+@import url("wowhead.css");
+
+body {
+	font-size: 1rem;
+	font-family: 'Philosopher', sans-serif;
+	background-color: #2B1B17;
+}
+
+table, tr, td {
+	border: 1px solid;
+	vertical-align: middle;
+}
+tr, td {
+	text-align: center;
+	padding: 5px;
+}
+
+#lang-change {
+	/*float: right;*/
+	text-align: right;
+	margin: 20px;
+	font-size: 1.4rem;
+	color: white;
+}
+
+.iconlarge {
+    width: 290px;
+}
+.medium {
+	width: 250px;
+}
+.small {
+	width: 68px;
+}
+
+h1, h2, h3, h4, h5, h6, .imitation-heading, .heading-size-1 {
+    color: #000;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+.heading-size-1 {
+	margin-left: 70px;
+	color: green;
+	/*text-shadow: white 0 0 10px;*/ /*дает свечение вкупе с золотым цветом*/
+	font-family: 'Philosopher', sans-serif;
+}
+
+.herb {
+	height: 68px;
+	margin-bottom: 6px;
+	float: left;
+}
+.aethril {
+	width: 165px;
+}
+.dreamleaf {
+	width: 190px;
+}
+.starlightrosepetals {
+	width: 290px;
+}
+.foxflower {
+	width: 190px;
+}
+.yserallineseed {
+	width: 200px;
+}
+.fjarnskaggl {
+	width: 220px;
+}
+
+/*.herb-left {
+	float: left;
+	margin-right: 10px;
+}
+	.herb-left input,
+	.herb-right input {
+		margin-left: 70px;
+		margin-top: 10px;
+	}
+
+.herb-right {
+	float: left;
+}*/
+
+.herbs-price,
+.potions-price,
+.annihilat-price {
+	border: 2px ridge;
+	margin: 15px;
+	padding: 10px;
+	/*width: 550px;*/
+}
+	.herbs-price legend,
+	.potions-price legend,
+	.annihilat-price legend {
+		color: gold;
+		font-size: 1.1rem;
+	}
+	.herbs-price input {
+		margin-left: 70px;
+		margin-top: 10px;
+	}
