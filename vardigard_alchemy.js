@@ -290,6 +290,7 @@ function get_profit() {
 	totalprice_yserallineseed.innerHTML = count_yserallineseed * price_yserallineseed;
 	plan_ancient_healing_potions.innerHTML = count_yserallineseed / 4;
 	selfcost_annihilat_small.innerHTML = (totalprice_yserallineseed.innerHTML / count_annihilat_small).toFixed(1);
+	if (isNaN(totalprice_yserallineseed.innerHTML / count_annihilat_small)) {selfcost_annihilat_small.innerHTML = 0};
 	selfcost_annihilat.innerHTML = (selfcost_annihilat_small.innerHTML * 100).toFixed(1);
 	profit_annihilat.innerHTML = (auccost_annihilat - selfcost_annihilat.innerHTML).toFixed(1);
 	if (profit_annihilat.innerHTML > 0) {
