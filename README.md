@@ -1,2 +1,3 @@
 # pasatig_alchemy
-Просто калькулятор для Антона и его зрителей
+Форк под BfA
+Исходный https://github.com/Vardigard/pasatig-alchemy.github.io
