@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 	<head>
 		<link rel="Shortcut Icon" href="images/favicon.png" type="image/png"> 
@@ -10,59 +10,64 @@
 		<div id="lang-change">Русский</div>
 		<fieldset class="herbs-price">
 			<legend>Стоимость на аукционе вашего сервера</legend>
-			<div class="herb aethril">
+			<div class="herb anchorweed">
 				<div class="iconlarge">
-					<p id="aethril" class="heading-size-1">Айтрил</p>
-					<ins style="background-image: url(images/aethril.jpg);"></ins>
+					<p id="anchorweed" class="heading-size-1">Якорь-трава</p>
+					<ins style="background-image: url(images/anchorweed.jpg);"></ins>
 					<del></del>
-					<input size="7" id="price-aethril" placeholder="Цена" onkeyup="get_profit()">
+					<input size="7" id="price-anchorweed" placeholder="Цена" onkeyup="get_profit()">
 				</div>
 			</div>
-		
-			<div class="herb dreamleaf">
+			<div class="herb winterskiss">
 				<div class="iconlarge">
-					<p id="dreamleaf" class="heading-size-1">Грезолист</p>
-					<ins style="background-image: url(images/dreamleaf.jpg);"></ins>
+					<p id="winterskiss" class="heading-size-1">Поцелуй зимы</p>
+					<ins style="background-image: url(images/winterskiss.jpg);"></ins>
 					<del></del>
-					<input size="10" id="price-dreamleaf" placeholder="Цена" onkeyup="get_profit()">
+					<input size="7" id="price-winterskiss" placeholder="Цена" onkeyup="get_profit()">
+				</div>
+			</div>
+			<div class="herb riverbud">
+				<div class="iconlarge">
+					<p id="riverbud" class="heading-size-1">Речной горох</p>
+					<ins style="background-image: url(images/riverbud.jpg);"></ins>
+					<del></del>
+					<input size="7" id="price-riverbud" placeholder="Цена" onkeyup="get_profit()">
+				</div>
+			</div>
+			<div class="herb starmoss">
+				<div class="iconlarge">
+					<p id="starmoss" class="heading-size-1">Звездный мох</p>
+					<ins style="background-image: url(images/starmoss.jpg);"></ins>
+					<del></del>
+					<input size="7" id="price-starmoss" placeholder="Цена" onkeyup="get_profit()">
+				</div>
+			</div>
+			<div class="herb sirenspollen">
+				<div class="iconlarge">
+					<p id="sirenspollen" class="heading-size-1">Пыльца сирены</p>
+					<ins style="background-image: url(images/sirenspollen.jpg);"></ins>
+					<del></del>
+					<input size="7" id="price-sirenspollen" placeholder="Цена" onkeyup="get_profit()">
+				</div>
+			</div>
+			<div class="herb akundasbite">
+				<div class="iconlarge">
+					<p id="akundasbite" class="heading-size-1">Укус Акунды</p>
+					<ins style="background-image: url(images/akundasbite.jpg);"></ins>
+					<del></del>
+					<input size="7" id="price-akundasbite" placeholder="Цена" onkeyup="get_profit()">
+				</div>
+			</div>
+			<div class="herb seastalk">
+				<div class="iconlarge">
+					<p id="seastalk" class="heading-size-1">Морской стебель</p>
+					<ins style="background-image: url(images/seastalk.jpg);"></ins>
+					<del></del>
+					<input size="7" id="price-seastalk" placeholder="Цена" onkeyup="get_profit()">
 				</div>
 			</div>
 			
-			<div class="herb fjarnskaggl">
-				<div class="iconlarge medium">
-					<p id="fjarnskaggl" class="heading-size-1">Фьярнскаггл</p>
-					<ins style="background-image: url(images/fjarnskaggl.jpg);"></ins>
-					<del></del>
-					<input size="11" id="price-fjarnskaggl" placeholder="Цена" onkeyup="get_profit()">
-				</div>
-			</div>
-			
-			<div class="herb foxflower">
-				<div class="iconlarge medium">
-					<p id="foxflower" class="heading-size-1">Лисоцвет</p>
-					<ins style="background-image: url(images/foxflower.jpg);"></ins>
-					<del></del>
-					<input size="10" id="price-foxflower" placeholder="Цена" onkeyup="get_profit()">
-				</div>
-			</div>
-		
-			<div class="herb starlightrosepetals">
-				<div class="iconlarge">
-					<p id="starlightrosepetals" class="heading-size-1">Звездная роза</p>
-					<ins style="background-image: url(images/starlightrosepetals.jpg);"></ins>
-					<del></del>
-					<input size="16" id="price-starlightrosepetals" placeholder="Цена" onkeyup="get_profit()">
-				</div>
-			</div>
-		
-			<div class="herb yserallineseed">
-				<div class="iconlarge medium">
-					<p id="yserallineseed" class="heading-size-1">Семя Изеры</p>
-					<ins style="background-image: url(images/yserallineseed.jpg);"></ins>
-					<del></del>
-					<input size="13" id="price-yserallineseed" placeholder="Цена" onkeyup="get_profit()">
-				</div>
-			</div>
+
 		</fieldset>
 		
 		<fieldset class="potions-price">
@@ -90,7 +95,7 @@
 							<del></del>
 						</div>
 					</td>
-					<td><p>Настой бесчисленных армий</p></td>
+					<td><p>Настой силы прибоя</p></td>
 					<td><span id="selfcost-flask_strength_1">0</span></td>
 					<td><input size="8" id="auccost-flask_strength_1" onkeyup="get_profit()"></td>
 					<td><span id="profit-flask_strength_1">0</span></td>
@@ -105,7 +110,7 @@
 							<del></del>
 						</div>
 					</td>
-					<td><p>Настой десяти тысяч шрамов</p></td>
+					<td><p>Настой бескрайнего горизонта</p></td>
 					<td><span id="selfcost-flask_vitality_2">0</span></td>
 					<td><input size="8" id="auccost-flask_vitality_2" onkeyup="get_profit()"></td>
 					<td><span id="profit-flask_vitality_2">0</span></td>
@@ -120,7 +125,7 @@
 							<del></del>
 						</div>
 					</td>
-					<td><p>Настой седьмого демона</p></td>
+					<td><p>Настой стремительных течений</p></td>
 					<td><span id="selfcost-flask_agility_3">0</span></td>
 					<td><input size="8" id="auccost-flask_agility_3" onkeyup="get_profit()"></td>
 					<td><span id="profit-flask_agility_3">0</span></td>
@@ -135,7 +140,7 @@
 							<del></del>
 						</div>
 					</td>
-					<td><p>Настой тайного соглашения</p></td>
+					<td><p>Настой бездонных глубин</p></td>
 					<td><span id="selfcost-flask_intelligence_4">0</span></td>
 					<td><input size="8" id="auccost-flask_intelligence_4" onkeyup="get_profit()"></td>
 					<td><span id="profit-flask_intelligence_4">0</span></td>
@@ -147,111 +152,66 @@
 				<tr>
 					<td>
 						<div class="iconlarge small">
-							<ins style="background-image: url(images/potion_ancient_war_1.jpg);"></ins>
+							<ins style="background-image: url(images/battle_potion_of_stamina.jpg);"></ins>
 							<del></del>
 						</div>
 					</td>
-					<td><p>Зелье древней войны</p></td>
-					<td><span id="selfcost-potion_ancient_war_1">0</span></td>
-					<td><input size="8" id="auccost-potion_ancient_war_1" onkeyup="get_profit()"></td>
-					<td><span id="profit-potion_ancient_war_1">0</span></td>
-					<td><input size="8" id="created-potion_ancient_war_1" onkeyup="get_profit()"></td>
-					<td><input size="8" id="procked-potion_ancient_war_1" onkeyup="get_profit()"></td>
-					<td><span id="allprofit-potion_ancient_war_1">0</span></td>
+					<td><p>Боевое зелье выносливости</p></td>
+					<td><span id="selfcost-battle_potion_of_stamina">0</span></td>
+					<td><input size="8" id="auccost-battle_potion_of_stamina" onkeyup="get_profit()"></td>
+					<td><span id="profit-battle_potion_of_stamina">0</span></td>
+					<td><input size="8" id="created-battle_potion_of_stamina" onkeyup="get_profit()"></td>
+					<td><input size="8" id="procked-battle_potion_of_stamina" onkeyup="get_profit()"></td>
+					<td><span id="allprofit-battle_potion_of_stamina">0</span></td>
 				</tr>
 				<tr>
 					<td>
 						<div class="iconlarge small">
-							<ins style="background-image: url(images/potion_unstoppable_2.jpg);"></ins>
+							<ins style="background-image: url(images/battle_potion_of_agility.jpg);"></ins>
 							<del></del>
 						</div>
 					</td>
-					<td><p>Зелье непреклонности</p></td>
-					<td><span id="selfcost-potion_unstoppable_2">0</span></td>
-					<td><input size="8" id="auccost-potion_unstoppable_2" onkeyup="get_profit()"></td>
-					<td><span id="profit-potion_unstoppable_2">0</span></td>
-					<td><input size="8" id="created-potion_unstoppable_2" onkeyup="get_profit()"></td>
-					<td><input size="8" id="procked-potion_unstoppable_2" onkeyup="get_profit()"></td>
-					<td><span id="allprofit-potion_unstoppable_2">0</span></td>
+					<td><p>Боевое зелье ловкости</p></td>
+					<td><span id="selfcost-battle_potion_of_agility">0</span></td>
+					<td><input size="8" id="auccost-battle_potion_of_agility" onkeyup="get_profit()"></td>
+					<td><span id="profit-battle_potion_of_agility">0</span></td>
+					<td><input size="8" id="created-battle_potion_of_agility" onkeyup="get_profit()"></td>
+					<td><input size="8" id="procked-battle_potion_of_agility" onkeyup="get_profit()"></td>
+					<td><span id="allprofit-battle_potion_of_agility">0</span></td>
 				</tr>
 				<tr>
 					<td>
 						<div class="iconlarge small">
-							<ins style="background-image: url(images/potion_power_flow_3.jpg);"></ins>
+							<ins style="background-image: url(images/battle_potion_of_strength.jpg);"></ins>
 							<del></del>
 						</div>
 					</td>
-					<td><p>Зелье силового потока</p></td>
-					<td><span id="selfcost-potion_power_flow_3">0</span></td>
-					<td><input size="8" id="auccost-potion_power_flow_3" onkeyup="get_profit()"></td>
-					<td><span id="profit-potion_power_flow_3">0</span></td>
-					<td><input size="8" id="created-potion_power_flow_3" onkeyup="get_profit()"></td>
-					<td><input size="8" id="procked-potion_power_flow_3" onkeyup="get_profit()"></td>
-					<td><span id="allprofit-potion_power_flow_3">0</span></td>
+					<td><p>Боевое зелье силы</p></td>
+					<td><span id="selfcost-battle_potion_of_strength">0</span></td>
+					<td><input size="8" id="auccost-battle_potion_of_strength" onkeyup="get_profit()"></td>
+					<td><span id="profit-battle_potion_of_strength">0</span></td>
+					<td><input size="8" id="created-battle_potion_of_strength" onkeyup="get_profit()"></td>
+					<td><input size="8" id="procked-battle_potion_of_strength" onkeyup="get_profit()"></td>
+					<td><span id="allprofit-battle_potion_of_strength">0</span></td>
 				</tr>
 				<tr>
 					<td>
 						<div class="iconlarge small">
-							<ins style="background-image: url(images/potion_deadly_present_4.jpg);"></ins>
+							<ins style="background-image: url(images/battle_potion_of_intellect.jpg);"></ins>
 							<del></del>
 						</div>
 					</td>
-					<td><p>Зелье смертоносной милости</p></td>
-					<td><span id="selfcost-potion_deadly_present_4">0</span></td>
-					<td><input size="8" id="auccost-potion_deadly_present_4" onkeyup="get_profit()"></td>
-					<td><span id="profit-potion_deadly_present_4">0</span></td>
-					<td><input size="8" id="created-potion_deadly_present_4" onkeyup="get_profit()"></td>
-					<td><input size="8" id="procked-potion_deadly_present_4" onkeyup="get_profit()"></td>
-					<td><span id="allprofit-potion_deadly_present_4">0</span></td>
+					<td><p>Боевое зелье интеллекта</p></td>
+					<td><span id="selfcost-battle_potion_of_intellect">0</span></td>
+					<td><input size="8" id="auccost-battle_potion_of_intellect" onkeyup="get_profit()"></td>
+					<td><span id="profit-battle_potion_of_intellect">0</span></td>
+					<td><input size="8" id="created-battle_potion_of_intellect" onkeyup="get_profit()"></td>
+					<td><input size="8" id="procked-battle_potion_of_intellect" onkeyup="get_profit()"></td>
+					<td><span id="allprofit-battle_potion_of_intellect">0</span></td>
 				</tr>
 			</table>
 		</fieldset>
-		
-		<fieldset class="annihilat-price">
-			<legend>Себестоимость аннигилята</legend>
-			<table>
-				<tr>
-					<td colspan="2">Информация о крафте</td>
-					<td colspan="2">Семена Изеры</td>
-					<td colspan="2">Древнее лечебное зелье</td>
-					<td colspan="2">Крупицы аннигилята</td>
-					<td colspan="4">Целый аннигилят</td>
-				</tr>
-				<tr>
-					<td>Картинка</td>
-					<td>Название</td>
-					<td>Количество</td>
-					<td>Цена</td>
-					<td>План</td>
-					<td>Факт</td>
-					<td>Количество</td>
-					<td>Себестоимость</td>
-					<td>Себестоимость</td>
-					<td>Рыночная цена</td>
-					<td>Доход с 1 шт</td>
-					<td>Итог</td>
-				</tr>
-				<tr>
-					<td>
-						<div class="iconlarge small">
-							<ins style="background-image: url(images/annihilat.jpg);"></ins>
-							<del></del>
-						</div>
-					</td>
-					<td><p>Аннигилят</p></td>
-					<td><input size="8" id="count-yserallineseed" onkeyup="get_profit()"></td>
-					<td><span id="totalprice-yserallineseed">0</span></td>
-					<td><span id="plan-ancient-healing-potions">0</span></td>
-					<td><input size="8" id="fact-ancient-healing-potions" onkeyup="get_profit()"></td>
-					<td><input size="8" id="count-annihilat-small" onkeyup="get_profit()"></td>
-					<td><span id="selfcost-annihilat-small">0</span></td>
-					<td><span id="selfcost-annihilat">0</span></td>
-					<td><input size="8" id="auccost-annihilat" onkeyup="get_profit()"></td>
-					<td><span id="profit-annihilat">0</span></td>
-					<td><span id="allprofit-annihilat">0</span></td>
-				</tr>
-			</table>
-		</fieldset>
+
 		<script src="vardigard_alchemy.js"></script>
 	</body>
 </html>
