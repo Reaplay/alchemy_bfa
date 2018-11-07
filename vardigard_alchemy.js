@@ -276,8 +276,9 @@ function save_cookie(){
 	document.cookie = "cost=; path=/; expires=-1";
 	cost = "auccost-flask_strength_1:"+document.getElementById('auccost-flask_strength_1').value+",auccost-flask_vitality_2:"+document.getElementById('auccost-flask_vitality_2').value+",auccost-flask_agility_3:"+document.getElementById('auccost-flask_agility_3').value+",auccost-flask_intelligence_4:"+document.getElementById('auccost-flask_intelligence_4').value+",auccost-battle_potion_of_stamina:"+document.getElementById('auccost-battle_potion_of_stamina').value+",auccost-battle_potion_of_agility:"+document.getElementById('auccost-battle_potion_of_agility').value+",auccost-battle_potion_of_strength:"+document.getElementById('auccost-battle_potion_of_strength').value+",auccost-battle_potion_of_intellect:"+document.getElementById('auccost-battle_potion_of_intellect').value+",price-anchorweed:"+document.getElementById('price-anchorweed').value+",price-winterskiss:"+document.getElementById('price-winterskiss').value+",price-riverbud:"+document.getElementById('price-riverbud').value+",price-starmoss:"+document.getElementById('price-starmoss').value+",price-sirenspollen:"+document.getElementById('price-sirenspollen').value+",price-akundasbite:"+document.getElementById('price-akundasbite').value+",price-seastalk:"+document.getElementById('price-seastalk').value;
 	
-	var date = new Date(new Date().getTime() + 60*60*24 * 1000);
+	var date = new Date(new Date().getTime() + 60*60*24*14 * 1000);
 	document.cookie = "cost="+cost+"; path=/; expires=" + date.toUTCString();
+	alert("Данные сохранены на 2 недели");
 }
 
 function load_cookie(){
